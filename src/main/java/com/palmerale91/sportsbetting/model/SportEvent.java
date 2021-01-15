@@ -3,7 +3,7 @@ package com.palmerale91.sportsbetting.model;
 import java.time.ZonedDateTime;
 
 public class SportEvent {
-    private int Id;
+    private int id;
     private String name;
     private Double odds1stTeam;
     private Double oddsForDraw;
@@ -11,11 +11,11 @@ public class SportEvent {
     private ZonedDateTime date;
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
